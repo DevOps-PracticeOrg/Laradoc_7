@@ -3,7 +3,9 @@
 # ディレクトリ構成
 以下のようにディレクトリを作ってください。
 * db
-* laradoc※ここcloneしてください。laradoc/laradocじゃないあですよ
+* laradoc
+    * ※ここcloneしてください。laradoc/laradocじゃないですよ。
+    * 各種ディレクトリ・ファイルが直下にできるように！
 * web
     * lara7
 
