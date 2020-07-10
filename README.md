@@ -11,7 +11,7 @@
 * laradoc$ docker-compose up -d --build workspace postgres php-fpm apache2 pgadmin
 
 ## laravelを作る 
-* laradoc$ $docker-compose exec workspace bash
+* laradoc$ docker-compose exec workspace bash
 * cd html 
 
 ### laravelインストール
