@@ -10,6 +10,7 @@
     * lara7
 
 ## コンテナを立てる
+* laradoc$ cp .useEnv .env
 * laradoc$ docker-compose up -d --build workspace postgres php-fpm apache2 pgadmin
 
 ## laravelを作る 
@@ -29,4 +30,8 @@
 
 上記のエラがー出たら
 * html/lara7$ rm -rf vendor && composer install --no-dev
+
+### laravel環境設定
+* html/lara7$ cp .useEnv .env
+* html/lara7$ php artisan key:generate
 
