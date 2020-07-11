@@ -11,7 +11,7 @@
 
 ## コンテナを立てる
 * laradoc$ cp .useEnv .env
-* laradoc$ docker-compose up -d --build workspace postgres php-fpm apache2 pgadmin
+* laradoc$ docker-compose up -d --build workspace postgres php-fpm apache2 pgadmin mailhog
 
 ## laravelを作る 
 * cd ../web
