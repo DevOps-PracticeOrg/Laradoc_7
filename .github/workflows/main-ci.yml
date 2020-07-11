@@ -8,7 +8,7 @@ jobs:
     strategy:
       matrix:
         php_version: ["7.1", "7.2", "7.3", "7.4"]
-        service: [php-fpm, php-worker, workspace, laravel-horizon]
+        service: [php-fpm, workspace, , postgres, apache2, pgadmin, mailhog]
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
