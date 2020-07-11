@@ -15,7 +15,7 @@
 
 ## laravelを作る 
 * cd ../web
-    * git clone https://github.com/webPractice-Ynet/pokemonPT__infra.git ./lara7
+    * git clone https://github.com/webPractice-Ynet/pokemonPT.git ./lara7
 
 * cd ../laradoc
 * laradoc$ docker-compose exec workspace bash
