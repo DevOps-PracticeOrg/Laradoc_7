@@ -7,8 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        php_version: ["7.1", "7.2", "7.3", "7.4"]
-        service: [php-fpm, workspace, postgres, apache2, pgadmin, mailhog]
+        php_version: ["7.3"]
+        ## service: [php-fpm, workspace, postgres, apache2, pgadmin, mailhog]
+        service: [php-fpm, workspace]
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
@@ -17,3 +18,5 @@ jobs:
       run: |
         cp env-example .env
         docker-compose build ${{ matrix.service }}
+
+
